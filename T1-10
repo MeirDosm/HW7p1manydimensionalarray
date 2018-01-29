@@ -11,7 +11,7 @@ int main(int argc, char** argv) {
 	cout << "Enter the task number: " << endl;
 	cin >> task_num;
     
-	if(task_num<1&&task_num>10)
+	if((task_num<1)&&(task_num>10))
 	{
 		cout << "Error! You have to enter more than 0 and less than 10. " << endl;
 		cin >> task_num;
